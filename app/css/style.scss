@@ -1,0 +1,46 @@
+*,
+*::after,
+*::before {
+  padding: 0%;
+  margin: 0%;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  min-height: 2750px;
+}
+
+.jumbotron {
+  padding-top: 5rem;
+  background-color: rgb(173, 250, 218);
+}
+
+nav {
+  background: linear-gradient(45deg, cyan, yellow);
+  font-family: Arial, Helvetica, sans-serif;
+  .nav-link {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+}
+
+#interest {
+  background-color: rgb(173, 250, 218);
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.card-img,
+.card-img-bottom,
+.card-img-top {
+  width: 35%;
+}
